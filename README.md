@@ -3,6 +3,8 @@
 Abstractions that I made for use in various projects.
 Heavily Depended on SPAT5 Library, as well as some math helpers (sin/cos).
 
+Some patches may require other abtstractions I made, it should be on my other repository aq-max-utilities
+
 ## Panning
 
 ### Quad Channel Setup
