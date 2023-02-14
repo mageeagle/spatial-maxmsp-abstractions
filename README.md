@@ -1,6 +1,7 @@
 # Max/MSP Abstractions for Space / Coordinates / Channel Manipulation
 
-Heavily Depended on SPAT5 Library, as well as some math helpers (sin/cos)
+Abstractions that I made for use in various projects.
+Heavily Depended on SPAT5 Library, as well as some math helpers (sin/cos).
 
 ## Panning
 
@@ -126,7 +127,7 @@ Implementing (?)
 Implementing (?)
 
 ---
-Distance
+## Distance
 
 #### Distance Based Delay
 The name says it all, scale adjustable
@@ -135,7 +136,12 @@ The name says it all, scale adjustable
 Distance calculator between an array of points, for markov chain probability settings
 
 ---
+## Integration
 
+#### OSC Position
+Grasshopper file for source visuallization on Rhino
+
+---
 ## Examples
 
 #### Motion Generation
@@ -149,3 +155,12 @@ QList or Message box example for scene control
 
 #### SPAT to SN3D
 Guide for conversion of formats
+
+---
+## Testing
+
+#### Compiled Panning Setup
+Just a bunch of panning patches stuffed together
+
+#### Feedback Spat Testing
+Testing feedback systems using spat
