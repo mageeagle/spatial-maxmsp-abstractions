@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
-			"revision" : 0,
+			"minor" : 6,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1852.0, 969.0 ],
+		"rect" : [ 34.0, 77.0, 1639.0, 850.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -101,8 +101,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 5,
-							"revision" : 0,
+							"minor" : 6,
+							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -136,7 +136,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"globalpatchername" : "fete-traj",
+						"globalpatchername" : "source-traj",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
@@ -145,10 +145,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 298.0, 164.0, 22.0 ],
-									"saved_object_attributes" : 									{
-										"parameter_enable" : 0
-									}
-,
 									"text" : "spat5.osc.speedlim @rate 20"
 								}
 
@@ -641,7 +637,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 370.525108406543723, 810.461786912605248, 91.0, 22.0 ],
+									"patching_rect" : [ 370.525108406543723, 810.461786912605248, 101.0, 22.0 ],
 									"text" : "sprintf #1-%s"
 								}
 
@@ -738,7 +734,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 62.0, 659.001119713783282, 73.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 644, 536, 1158, 898 ],
+										"client_rect" : [ 746, 348, 1260, 710 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
 										"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -843,7 +839,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 467.989921867847443, 173.757018141361442, 124.0, 22.0 ],
+									"patching_rect" : [ 467.989921867847443, 173.757018141361442, 131.0, 22.0 ],
 									"text" : "r #1-traj-messages"
 								}
 
@@ -939,8 +935,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 247.893183223816123, 306.0, 22.0 ],
-									"text" : "poly~ trajectories-poly #2 down 16 @vs 32 @parallel 1  "
+									"patching_rect" : [ 50.0, 247.893183223816123, 216.0, 22.0 ],
+									"text" : "poly~ trajectories-poly #2  @parallel 1  "
 								}
 
 							}
@@ -1114,7 +1110,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-195", 1 ],
-									"midpoints" : [ 202.489921867847443, 234.129979036661354, 203.0, 234.129979036661354 ],
+									"midpoints" : [ 202.489921867847443, 234.129979036661354, 158.0, 234.129979036661354 ],
 									"source" : [ "obj-220", 0 ]
 								}
 
@@ -1409,7 +1405,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-195", 1 ],
-									"midpoints" : [ 346.5, 200.179928747030459, 203.0, 200.179928747030459 ],
+									"midpoints" : [ 346.5, 200.179928747030459, 158.0, 200.179928747030459 ],
 									"source" : [ "obj-77", 0 ]
 								}
 
@@ -1417,7 +1413,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-195", 2 ],
-									"midpoints" : [ 467.5, 202.179928747030459, 346.5, 202.179928747030459 ],
+									"midpoints" : [ 467.5, 202.179928747030459, 256.5, 202.179928747030459 ],
 									"source" : [ "obj-78", 0 ]
 								}
 
@@ -1478,7 +1474,7 @@
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
-						"globalpatchername" : "fete-traj",
+						"globalpatchername" : "source-traj",
 						"tags" : ""
 					}
 ,
