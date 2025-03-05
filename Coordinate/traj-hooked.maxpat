@@ -2,42 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1639.0, 850.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ -144.0, 155.0, 1639.0, 850.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-32",
@@ -85,8 +59,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 86.200016736984253, 169.039455927833643, 69.0, 23.0 ],
-					"text" : "enable $1"
+					"patching_rect" : [ 86.200016736984253, 169.039455927833643, 76.0, 23.0 ],
+					"text" : "enable $1 1"
 				}
 
 			}
@@ -100,43 +74,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 42.0, 85.0, 1410.0, 969.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 34.0, 77.0, 1639.0, 802.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"globalpatchername" : "source-traj",
+						"globalpatchername" : "spat-in-1-traj",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-9",
@@ -637,7 +585,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 370.525108406543723, 810.461786912605248, 101.0, 22.0 ],
+									"patching_rect" : [ 370.525108406543723, 810.461786912605248, 112.0, 22.0 ],
 									"text" : "sprintf #1-%s"
 								}
 
@@ -734,7 +682,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 62.0, 659.001119713783282, 73.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 746, 348, 1260, 710 ],
+										"client_rect" : [ 701, 385, 1215, 747 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
 										"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -839,7 +787,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 467.989921867847443, 173.757018141361442, 131.0, 22.0 ],
+									"patching_rect" : [ 467.989921867847443, 173.757018141361442, 142.0, 22.0 ],
 									"text" : "r #1-traj-messages"
 								}
 
@@ -875,7 +823,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 337.0, 173.757018141361442, 109.0, 22.0 ],
+									"patching_rect" : [ 337.0, 173.757018141361442, 120.0, 22.0 ],
 									"text" : "r #1-traj-radius"
 								}
 
@@ -911,7 +859,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 192.989921867847443, 173.757018141361442, 109.0, 22.0 ],
+									"patching_rect" : [ 192.989921867847443, 173.757018141361442, 120.0, 22.0 ],
 									"text" : "r #1-traj-speed"
 								}
 
@@ -935,8 +883,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 247.893183223816123, 216.0, 22.0 ],
-									"text" : "poly~ trajectories-poly #2  @parallel 1  "
+									"patching_rect" : [ 50.0, 247.893183223816123, 146.0, 22.0 ],
+									"text" : "poly~ trajectories-poly #2 "
 								}
 
 							}
@@ -1110,7 +1058,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-195", 1 ],
-									"midpoints" : [ 202.489921867847443, 234.129979036661354, 158.0, 234.129979036661354 ],
+									"midpoints" : [ 202.489921867847443, 234.129979036661354, 123.0, 234.129979036661354 ],
 									"source" : [ "obj-220", 0 ]
 								}
 
@@ -1405,7 +1353,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-195", 1 ],
-									"midpoints" : [ 346.5, 200.179928747030459, 158.0, 200.179928747030459 ],
+									"midpoints" : [ 346.5, 200.179928747030459, 123.0, 200.179928747030459 ],
 									"source" : [ "obj-77", 0 ]
 								}
 
@@ -1413,7 +1361,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-195", 2 ],
-									"midpoints" : [ 467.5, 202.179928747030459, 256.5, 202.179928747030459 ],
+									"midpoints" : [ 467.5, 202.179928747030459, 186.5, 202.179928747030459 ],
 									"source" : [ "obj-78", 0 ]
 								}
 
@@ -1467,15 +1415,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-53857"
 					}
 ,
 					"patching_rect" : [ 50.0, 263.35846156074922, 35.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "source-traj",
-						"tags" : ""
+						"globalpatchername" : "spat-in-1-traj"
 					}
 ,
 					"text" : "p traj",
@@ -1554,7 +1500,8 @@
 				}
 
 			}
- ]
+ ],
+		"originid" : "pat-53855"
 	}
 
 }

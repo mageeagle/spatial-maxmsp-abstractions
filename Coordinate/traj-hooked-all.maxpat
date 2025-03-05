@@ -2,42 +2,16 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 8,
-			"minor" : 6,
+			"major" : 9,
+			"minor" : 0,
 			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1639.0, 850.0 ],
-		"bglocked" : 0,
-		"openinpresentation" : 0,
-		"default_fontsize" : 12.0,
-		"default_fontface" : 0,
-		"default_fontname" : "Arial",
-		"gridonopen" : 1,
+		"rect" : [ -148.0, 208.0, 1639.0, 850.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 1,
-		"objectsnaponopen" : 1,
-		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
-		"lefttoolbarpinned" : 0,
-		"toptoolbarpinned" : 0,
-		"righttoolbarpinned" : 0,
-		"bottomtoolbarpinned" : 0,
-		"toolbars_unpinned_last_save" : 0,
-		"tallnewobj" : 0,
-		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
-		"devicewidth" : 0.0,
-		"description" : "",
-		"digest" : "",
-		"tags" : "",
-		"style" : "",
-		"subpatcher_template" : "",
-		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-32",
@@ -85,8 +59,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 86.200016736984253, 169.039455927833643, 69.0, 23.0 ],
-					"text" : "enable $1"
+					"patching_rect" : [ 86.200016736984253, 169.039455927833643, 76.0, 23.0 ],
+					"text" : "enable $1 1"
 				}
 
 			}
@@ -100,43 +74,17 @@
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
-							"major" : 8,
-							"minor" : 6,
+							"major" : 9,
+							"minor" : 0,
 							"revision" : 3,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 77.0, 1639.0, 850.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
+						"rect" : [ 34.0, 77.0, 1639.0, 802.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"globalpatchername" : "sampling-traj-all",
+						"globalpatchername" : "spat-in-1-traj-all",
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-55",
@@ -806,7 +754,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 62.0, 940.001119713783282, 73.0, 22.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 746, 348, 1260, 710 ],
+										"client_rect" : [ 701, 385, 1215, 747 ],
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0,
 										"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -959,8 +907,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 50.0, 450.893183223816095, 234.0, 22.0 ],
-									"text" : "poly~ rotate-poly #2 down 16 @parallel 1  "
+									"patching_rect" : [ 50.0, 450.893183223816095, 114.0, 22.0 ],
+									"text" : "poly~ rotate-poly #2"
 								}
 
 							}
@@ -1582,15 +1530,13 @@
 								}
 
 							}
- ]
+ ],
+						"originid" : "pat-53651"
 					}
 ,
 					"patching_rect" : [ 50.0, 263.35846156074922, 51.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"globalpatchername" : "sampling-traj-all",
-						"tags" : ""
+						"globalpatchername" : "spat-in-1-traj-all"
 					}
 ,
 					"text" : "p traj-all",
@@ -1669,7 +1615,8 @@
 				}
 
 			}
- ]
+ ],
+		"originid" : "pat-53649"
 	}
 
 }
